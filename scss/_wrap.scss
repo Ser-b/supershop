@@ -1,0 +1,8 @@
+// --------------------------------------------------
+// Wraps and containers
+// --------------------------------------------------
+
+.container {
+	@include blockCenter();
+	width: $mainContainer;
+}

@@ -1,0 +1,89 @@
+// --------------------------------------------------
+// Variables Global
+// --------------------------------------------------
+
+// Colors
+// -------------------------
+
+// Blue
+
+$darkBlue:					#01104c;
+
+// Green
+
+// Grays
+$black:						#000;
+$dark:						#333;
+$lightBlack:			#1d1f20;
+$corduroy:				#5b5c5c;
+$gray:						#848484;
+$silverChalice:		#ababab;
+$alto:						#d6d6d6;
+$mercury:					#e6e6e6;
+$darkMercury:			#e4e0d6;
+$seashell:				#f1f0f0;
+$concrete:				#f3f3f3;
+$concreteLight:		#f3f5f8;
+$blackHaze:				#fafbfb;
+$silver:					#c8c8c8;
+$white:						#fff;
+$alabaster:				#f9f9f9;
+$gallery:					#ececec;
+$manatee:					#929aa6;
+$iron:						#cacdd1;
+
+// Dark
+$darkGray:				#222429;
+$ebonyClayDark:		#252c3c;
+$ebonyClay:				#283041;
+$sharkDark:				#333435;
+$brightGray:			#3e4456;
+$trout:						#535968;
+$shuttleGray:			#575f70;
+$paleSky:					#797b85;
+$grayChateau:			#9aa0a8;
+$mischka:					#cdd2da;
+$athensGray:			#e4e8ec;
+$athensGrayLight: #e9ecf0;
+
+// Red colors
+$red:							#ed1651;
+
+
+// Brand Colors
+$prime: $red;
+$second: $darkGray;
+
+// Font Sizes
+// -------------------------
+
+$fontSize: 1.5rem; //
+
+// Line heights
+// -------------------------
+
+$lineHeight: 1.4; // base desktop line height
+
+// Borders
+// -------------------------
+
+$radius: 3px; // static
+
+
+// Containers
+$mainContainer: 117rem;
+
+// Indents updated
+// --------------------------------------------------
+
+$indentSmall: 3%;
+$indentMiddle: 6%;
+$maxIndent: 16rem;
+
+// Font family
+$fontBase: Verdana, sans-serif; // base font family
+
+
+// Compile version for cache, random number
+// --------------------------------------------------
+$compileVersion: random(900000) + random(99999);

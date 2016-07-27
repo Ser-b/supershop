@@ -1,0 +1,83 @@
+//typography
+
+html {
+	font-size: 10px; // static
+	// remove gray highlight when tapping links in mobile
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	-webkit-tap-highlight-color: transparent; // for some Androids
+}
+
+body {
+	color: $second;
+	font-family: $fontBase;
+	font-size: $fontSize;
+	line-height: $lineHeight;
+	-webkit-font-smoothing: antialiased; // font rendering
+}
+
+a, .link {
+	text-decoration: none;
+
+	&:hover {
+		cursor: pointer;
+		@include opacity(.7);
+	}
+}
+
+img {
+	width: 100%;
+}
+
+// Headings
+// -------------------------
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: $fontBase;
+}
+
+.h1 {
+
+	@include minScreen($middle) {
+
+	}
+}
+
+.h2 {
+
+	@include minScreen($middle) {
+
+	}
+}
+
+.h3 {
+
+	@include minScreen($middle) {
+
+	}
+}
+
+.h4 {
+
+	@include minScreen($middle) {
+
+	}
+}
+
+.h5 {
+
+	@include minScreen($middle) {
+
+	}
+}
+
+.h6 {
+
+	@include minScreen($middle) {
+
+	}
+}
