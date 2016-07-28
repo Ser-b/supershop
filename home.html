@@ -39,6 +39,7 @@
         </header>
         <h1 class="h1 text-upper">Название<br>промо-товара</h1>
         <span>Описание промо-товара</span>
+        <div class="btn-outline"><i>Посмотреть +</i></div>
     </div>
 </section>
 <main class="container">
@@ -46,7 +47,11 @@
     <section class="new-items bg-white">
 
         <div class="section-title">
-            Новые товары
+            <h3 class="h4 inline">Новые товары</h4>
+            <div class="arrows right mr-2">
+                <img class="mr-s" src="frontend/img/arrow-left.png" alt="">
+                <img src="frontend/img/arrow-right.png" alt="">
+            </div>
         </div>
         <div class="row">
             <div class="l3">
@@ -54,7 +59,7 @@
                     Новый товар, блок
                 </div>
                 <div class="item-price">
-                Название товара 4540 руб	
+                Название товара <span class="price">4540 руб.</span>	
                 </div>
             </div>
             <div class="l3">
@@ -62,7 +67,7 @@
                     Новый товар, блок
                 </div>
                 <div class="item-price">
-                Название товара 4540 руб	
+                Название товара <span class="price">4540 руб.</span>	
                 </div>
             </div>
             <div class="l3">
@@ -70,7 +75,7 @@
                     Новый товар, блок
                 </div>
                 <div class="item-price">
-                Название товара 4540 руб	
+                Название товара <span class="price">4540 руб.</span>	
                 </div>
             </div>
             <div class="l3">
@@ -78,7 +83,7 @@
                     Новый товар, блок
                 </div>
                 <div class="item-price">
-                Название товара 4540 руб	
+                Название товара <span class="price">4540 руб.</span>	
                 </div>
             </div>
             <div class="l3">
@@ -86,7 +91,7 @@
                     Новый товар, блок
                 </div>
                 <div class="item-price">
-                Название товара 4540 руб	
+                Название товара <span class="price">4540 руб.</span>	
                 </div>
             </div>
             <div class="l3">
@@ -95,7 +100,7 @@
                     Новый товар, блок
                 </div>
                 <div class="item-price">
-                Название товара 4540 руб	
+                Название товара <span class="price">4540 руб.</span>	
                 </div>
             </div>
             <div class="l3">
@@ -104,7 +109,7 @@
                     Новый товар, блок
                 </div>
                 <div class="item-price">
-                Название товара 4540 руб	
+                Название товара <span class="price">4540 руб.</span>	
                 </div>
             </div>
             <div class="l3">
@@ -112,7 +117,7 @@
                     Новый товар, блок
                 </div>
                 <div class="item-price">
-                Название товара 4540 руб	
+                Название товара <span class="price">4540 руб.</span>	
                 </div>
             </div>
         </div>
@@ -128,13 +133,13 @@
 			
 		</div>
 
-		<div id="abc" class="promo l6 white">
+		<div class="promo l6 white">
 			<h3 class="h3"><strong>Заголовок</strong><br> промо-товара</h3>
 		</div>
     </section>
     <section class="popular-items bg-white mt-2">
     	<div class="section-title ">
-    	Популярные товары
+    	<h4 class="h4">Популярные товары</h4>
     	</div>
     	<div class="row">
             <div class="l3">
@@ -142,7 +147,7 @@
                     Популярный товар, блок
                 </div>
                 <div class="item-price">
-                	Название товара 4540 руб	
+                	Название товара <span class="price">4540 руб.</span>
                 </div>
             </div>
             <div class="l3">
@@ -151,7 +156,7 @@
                     Популярный товар, блок
                 </div>
                 <div class="item-price">
-                	Название товара 4540 руб	
+                	Название товара <span class="price right">4540 руб.</span>	
                 </div>
             </div>
             <div class="l3">
@@ -159,7 +164,7 @@
                     Популярный товар, блок
                 </div>
                 <div class="item-price">
-                	Название товара 4540 руб	
+                	Название товара <span class="price">4540 руб.</span>	
                 </div>
             </div>
             <div class="l3">
@@ -168,20 +173,25 @@
                     Популярный товар, блок
                 </div>
                 <div class="item-price">
-                	Название товара 4540 руб	
+                	Название товара <span class="price">4540 руб.</span>	
                 </div>
             </div>
          </div>
     </section>
 	<section class="about mt-2">
-		
+		<div class="LOffset5 l6">
+        <h4 class="h4 mt-4">О магазине</h4>
+        <p class="mt-1">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p><br>
+        <p>Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper </p>
+        </div>
 	</section>
     <footer class="mt-2">
-        <p>
-            Шаблон для экзаменационного задания.
+        <span class="l5 ml-2 mt-1">
+            Шаблон для экзаменационного задания.<br>
             Разработан специально для «Всероссийской Школы Программирования»
             http://bedev.ru/
-        </p>
+        </span>
+        <span class="up right mt-2 mr-2 white pointer">Наверх <img src="frontend/img/arrow-up.png" alt=""></span>
     </footer>
 </main>
 
