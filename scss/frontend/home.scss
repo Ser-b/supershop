@@ -9,6 +9,62 @@
 	padding-top: 2.7rem;
 }
 
+.logo {
+	height:12rem;
+	background-color:$red;
+	display: inline-block;
+	font-weight: 300;
+	padding-top: 1rem;
+}
+
+nav{
+	height: 6rem;
+	background-color: $white;
+}
+
+.cart {
+	background-color: $darkBlue;
+	height: 6rem;
+	float: right;
+	padding-left:1.8rem;
+	padding-top: 0.5rem;
+}
+
+.goods {
+	color: $gray;
+	font-size: 1.4rem;
+}
+
+.nav-list li{
+	display: inline-block;
+}
+
+.nav-list a{
+display: inline-block;
+width: 13rem;
+height: 6rem;
+line-height: 6rem;
+text-align: center;
+color: $black;
+
+&:hover {
+	background-color:$darkBlue;
+	color: $white;
+	@include opacity(1);
+};
+
+}
+
+.signIn{
+	height: 6rem;
+	line-height: 5rem;
+
+
+	& a {
+		border-bottom: 1px dashed;
+	}
+}
+
 .new-items {
 	margin-top: -8rem;
 	min-height: 73rem;

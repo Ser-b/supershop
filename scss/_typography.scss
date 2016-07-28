@@ -24,8 +24,8 @@ a, .link {
 	}
 }
 
-img {
-	width: 100%;
+strong {
+	font-weight: bold;
 }
 
 // Headings
@@ -38,24 +38,28 @@ h4,
 h5,
 h6 {
 	font-family: $fontBase;
+	font-weight: 300;
 }
 
 .h1 {
-
+	font-size: 7.2rem;
 	@include minScreen($middle) {
 
 	}
 }
 
 .h2 {
-
+	font-size: 4.1rem;
+	font-weight: 300;
+	line-height: 4.3rem;
 	@include minScreen($middle) {
 
 	}
 }
 
 .h3 {
-
+	font-size: 3.3rem;
+	font-weight: 300;
 	@include minScreen($middle) {
 
 	}
@@ -69,7 +73,7 @@ h6 {
 }
 
 .h5 {
-
+	font-size: 2rem;
 	@include minScreen($middle) {
 
 	}
