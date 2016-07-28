@@ -65,16 +65,69 @@ color: $black;
 	}
 }
 
+.hero h1 {
+	padding-top: 21rem;
+}
+
 .new-items {
 	margin-top: -8rem;
 	min-height: 73rem;
 
 	.item {
-		min-height: 32.5rem;
+		min-height: 23.6rem;
 		background-color: $alto;
 	}
 }
 
+.item-price {
+	min-height: 8.8rem;
+	padding: 3rem;
+}
+
 .section-title {
 	min-height: 8rem;
+}
+
+.banners {
+	min-height: 31rem;
+}
+
+.promo {
+	padding: 22rem 1rem 2rem 1rem;
+}
+
+.banners .promo:nth-child(1) {
+	background: url(../../frontend/img/banner-1.jpg) no-repeat;
+	background-position: -15rem 0;
+	height:31rem;
+}
+
+.banners .promo:nth-child(2) {
+	background: url(../../frontend/img/banner-2.jpg) no-repeat ;
+	background-position: -3rem 0;
+	height:31rem;
+}
+
+ .banners .promo:nth-child(3) {
+	background: url(../../frontend/img/banner-3.jpg) no-repeat;
+	height:31rem;
+}
+
+.popular-items .item {
+	min-height: 23.6rem;
+		background-color: $alto;
+		position:relative;
+}
+
+.corner {
+	position: absolute;
+	top:-0.2rem;
+	left: -0.2rem;
+}
+
+.about {
+	height: 31rem;
+	width:100%;
+	background: url(../../frontend/img/about-bg.jpg) no-repeat;
+	background-position: -5rem -25rem;
 }
