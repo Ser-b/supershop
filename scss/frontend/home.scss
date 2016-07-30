@@ -6,6 +6,9 @@
 	background-size: cover;
 	background-position: center;
 	min-height: 71.5rem;
+}
+
+header {
 	padding-top: 2.7rem;
 }
 
@@ -74,9 +77,14 @@ color: $black;
 	min-height: 73rem;
 
 	.item {
-		min-height: 23.6rem;
+		height: 23.6rem;
 		background-color: $alto;
 	}
+}
+
+img.goods {
+	height: 23.6rem;
+	width: 29rem;
 }
 
 .item-price {
@@ -88,11 +96,12 @@ color: $black;
 	font-size: 1.8rem;
 	color:$red;
 	font-style: italic;
+	float: right;
 }
 
 .section-title {
 	min-height: 8rem;
-	line-height:7rem;
+	padding: 3rem 3rem 0 3rem;
 }
 
 .banners {
@@ -141,4 +150,42 @@ color: $black;
 
 .up {
 	font-size:1.6rem;
+}
+
+
+/* Begin of category page */
+
+.category-head {
+	margin-top: 17.6rem;
+}
+
+.categoty-description {
+	height: 32.6rem;
+	background: url(../../frontend/img/category-description.jpg) no-repeat;
+	background-position: -1rem -14rem;
+	padding-top: 8rem;
+	padding-left: 4rem;
+}
+
+.banner-right {
+	background: url(../../frontend/img/promo-women.png) #f8f8f8 no-repeat;
+	background-position: 15rem 13rem;
+	height: 66rem;
+	padding-top: 5.5rem;
+	padding-left: 5rem;
+}
+
+.page-num {
+	height: 3rem;
+	width: 3rem;
+	background-color: $darkMercury;
+	display:inline-block;
+	line-height: 3rem;
+	text-align: center;
+
+&:hover {
+	background-color: $red;
+	color: white;
+	cursor: pointer;
+}
 }

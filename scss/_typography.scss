@@ -15,6 +15,7 @@ body {
 	-webkit-font-smoothing: antialiased; // font rendering
 }
 
+
 a, .link {
 	text-decoration: none;
 
@@ -44,6 +45,7 @@ h6 {
 .h1 {
 	font-size: 7.2rem;
 	line-height: 7.4rem;
+	text-transform: uppercase;
 	@include minScreen($middle) {
 
 	}
@@ -59,6 +61,14 @@ h6 {
 }
 
 .h3 {
+	font-size: 3.6rem;
+	line-height: 3.8rem;
+	@include minScreen($middle) {
+
+	}
+}
+
+.h4 {
 	font-size: 3.2rem;
 	font-weight: 300;
 	@include minScreen($middle) {
@@ -66,23 +76,17 @@ h6 {
 	}
 }
 
-.h4 {
+.h5 {
 	font-size: 2.4rem;
+	line-height: 2.4rem;
 	color:$darkBlue;
 	@include minScreen($middle) {
 
 	}
 }
 
-.h5 {
-	font-size: 2rem;
-	@include minScreen($middle) {
-
-	}
-}
-
 .h6 {
-
+	font-size: 2rem;
 	@include minScreen($middle) {
 
 	}
