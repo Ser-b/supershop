@@ -96,6 +96,10 @@
 	text-decoration: line-through;
 }
 
+.underline {
+	text-decoration: underline;
+}
+
 .text-shadow {
 	text-shadow: 1px 1px 1px $black;
 }
@@ -123,6 +127,11 @@
 
 .text-justify {
 	text-align: justify;
+}
+
+.block-center {
+	margin-right: auto;
+	margin-left:auto;
 }
 
 .align-top {

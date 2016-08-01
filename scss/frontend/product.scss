@@ -1,0 +1,207 @@
+@import "../core";
+@import "common";
+
+.hero {
+    background-image: url(../../frontend/img/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 71.5rem;
+}
+
+header {
+    padding-top: 2.7rem;
+}
+
+.logo {
+    height:12rem;
+    background-color:$red;
+    display: inline-block;
+    font-weight: 300;
+    padding-top: 1rem;
+}
+
+nav{
+    height: 6rem;
+    background-color: $white;
+}
+
+.cart {
+    background-color: $darkBlue;
+    height: 6rem;
+    float: right;
+    padding-left:1.8rem;
+    padding-top: 0.5rem;
+}
+
+.goods {
+    color: $gray;
+    font-size: 1.4rem;
+}
+
+.nav-list li{
+    display: inline-block;
+}
+
+.nav-list a{
+display: inline-block;
+width: 13rem;
+height: 6rem;
+line-height: 6rem;
+text-align: center;
+color: $black;
+
+&:hover {
+    background-color:$darkBlue;
+    color: $white;
+    @include opacity(1);
+};
+
+}
+
+.signIn{
+    height: 6rem;
+    line-height: 5rem;
+
+
+    & a {
+        border-bottom: 1px dashed;
+    }
+}
+
+.hero h1 {
+    padding-top: 21rem;
+}
+
+.new-items {
+    margin-top: -8rem;
+    min-height: 73rem;
+
+    .item {
+        height: 23.6rem;
+        background-color: $alto;
+    }
+}
+
+img.goods {
+    height: 23.6rem;
+    width: 29rem;
+}
+
+.item-price {
+    min-height: 8.8rem;
+    padding: 3rem;
+}
+
+.price {
+    font-size: 1.8rem;
+    color:$red;
+    font-style: italic;
+    float: right;
+}
+
+.section-title {
+    min-height: 8rem;
+    padding: 3rem 3rem 0 3rem;
+}
+
+.corner {
+    position: absolute;
+    top:-0.2rem;
+    left: -0.2rem;
+}
+
+.up {
+    font-size:1.6rem;
+}
+
+.category-head {
+    margin-top: 17.6rem;
+}
+
+.item-image {
+    height: 47rem;
+    background-color: $alto;
+}
+
+hr {
+    border: 2px solid $red;
+}
+
+.item-attribute {
+    padding-top: 4rem;
+    padding-left: 3rem;
+}
+
+.block-size {
+    height: 3rem;
+    line-height: 3rem;
+    vertical-align: center;
+}
+
+.size {
+    background-color: $darkMercury;
+    height: 3rem;
+    width: 21rem;
+    padding-left: 1rem;
+}
+
+.block-arrow {
+    height: 3rem;
+    width: 3rem;
+    text-align: center;
+    border-left: 2px solid $alto;
+    line-height: 2.5rem;
+}
+
+.buy {
+    padding-right: 5rem;
+    padding-left: 3rem;
+}
+
+.buy-price {
+    height: 19rem;
+    width:100%;
+    border: 1px solid $alto;
+    padding-top: 2.5rem;
+}
+
+.btn-block {
+    height: 7rem;
+    border-top: 1px solid $alto;
+    padding-top: 1.5rem;
+}
+
+.check-mark {
+    height: 2rem;
+    line-height: 2rem;
+    vertical-align: center;
+    width:100%;
+    text-align: center;
+}
+
+.icon {
+    height: 4rem;
+}
+
+.preview {
+    height: 11rem;
+    padding-top: 2.7rem;
+    padding-left: 8rem;
+}
+
+.preview-image {
+    height: 5.6rem;
+    width: 5.6rem;
+    background-color: $gray;
+    display: inline-block;
+
+    &:hover {
+        border: 2px solid $alto;
+    }
+}
+
+.arrow {
+    display:inline-block;
+    margin-bottom: 2rem;
+}
+

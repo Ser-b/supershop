@@ -1,0 +1,153 @@
+@import "../core";
+@import "common";
+
+.hero {
+	background-image: url(../../frontend/img/bg.jpg);
+	background-size: cover;
+	background-position: center;
+	min-height: 71.5rem;
+}
+
+header {
+	padding-top: 2.7rem;
+}
+
+.logo {
+	height:12rem;
+	background-color:$red;
+	display: inline-block;
+	font-weight: 300;
+	padding-top: 1rem;
+}
+
+nav{
+	height: 6rem;
+	background-color: $white;
+}
+
+.cart {
+	background-color: $darkBlue;
+	height: 6rem;
+	float: right;
+	padding-left:1.8rem;
+	padding-top: 0.5rem;
+}
+
+.goods {
+	color: $gray;
+	font-size: 1.4rem;
+}
+
+.nav-list li{
+	display: inline-block;
+}
+
+.nav-list a{
+display: inline-block;
+width: 13rem;
+height: 6rem;
+line-height: 6rem;
+text-align: center;
+color: $black;
+
+&:hover {
+	background-color:$darkBlue;
+	color: $white;
+	@include opacity(1);
+};
+
+}
+
+.signIn{
+	height: 6rem;
+	line-height: 5rem;
+
+
+	& a {
+		border-bottom: 1px dashed;
+	}
+}
+
+.hero h1 {
+	padding-top: 21rem;
+}
+
+.new-items {
+	margin-top: -8rem;
+	min-height: 73rem;
+
+	.item {
+		height: 23.6rem;
+		background-color: $alto;
+	}
+}
+
+img.goods {
+	height: 23.6rem;
+	width: 29rem;
+}
+
+.item-price {
+	min-height: 8.8rem;
+	padding: 3rem;
+}
+
+.price {
+	font-size: 1.8rem;
+	color:$red;
+	font-style: italic;
+	float: right;
+}
+
+.section-title {
+	min-height: 8rem;
+	padding: 3rem 3rem 0 3rem;
+}
+
+.corner {
+	position: absolute;
+	top:-0.2rem;
+	left: -0.2rem;
+}
+
+.up {
+	font-size:1.6rem;
+}
+
+
+/* Begin of category page */
+
+.category-head {
+	margin-top: 17.6rem;
+}
+
+.categoty-description {
+	height: 32.6rem;
+	background: url(../../frontend/img/category-description.jpg) no-repeat;
+	background-position: -1rem -14rem;
+	padding-top: 8rem;
+	padding-left: 4rem;
+}
+
+.banner-right {
+	background: url(../../frontend/img/promo-women.png) #f8f8f8 no-repeat;
+	background-position: 15rem 13rem;
+	height: 66rem;
+	padding-top: 5.5rem;
+	padding-left: 5rem;
+}
+
+.page-num {
+	height: 3rem;
+	width: 3rem;
+	background-color: $darkMercury;
+	display:inline-block;
+	line-height: 3rem;
+	text-align: center;
+
+&:hover {
+	background-color: $red;
+	color: white;
+	cursor: pointer;
+}
+}
