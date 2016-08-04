@@ -1,9 +1,13 @@
 // Buttons
 
+.btn {
+	text-align: center;
+	cursor: pointer;
+}
+
 .btn-outline {
 	border: 3px solid $red;
 	color: $white;
-	text-align: center;
 	
 
 	&:hover {
@@ -31,5 +35,41 @@
 	width: 13rem;
 	color: white;
 	text-transform: uppercase;
+	line-height: 4rem;
+}
+
+.btn-cart-back {
+	width: 19rem;
+	height: 4.5rem;
+	background-color: $black;
+	color: $white;
+	line-height: 4.5rem;
+}
+
+.btn-cart-total {
+	width: 29rem;
+	height: 5rem;
+	line-height: 5rem;
+	background-color: $red;
+	color: $white;
+	font-size: 2rem;
+}
+
+.btn-register {
+	width: 22rem;
+	height: 5rem;
+	line-height: 5rem;
+	background-color: $red;
+	font-size: 1.8rem;
+	color: $white;
+	border: none;
+}
+
+.btn-login {
+	height: 5rem;
+	width: 9.5rem;
+	border: 5px solid $red;
+	text-align: center;
+	font-size: 1.8rem;
 	line-height: 4rem;
 }
