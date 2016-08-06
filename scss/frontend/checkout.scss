@@ -1,0 +1,158 @@
+@import "../core";
+@import "common";
+
+.hero h1 {
+    margin-top: 17rem;
+}
+
+header {
+    padding-top: 2.7rem;
+}
+
+.logo {
+    height:12rem;
+    background-color:$red;
+    display: inline-block;
+    font-weight: 300;
+    padding-top: 1rem;
+}
+
+.user-log {
+    display: inline-block;
+}
+
+nav{
+    height: 6rem;
+    background-color: $white;
+}
+
+.cart {
+    background-color: $darkBlue;
+    height: 6rem;
+    float: right;
+    padding-left:1.8rem;
+    padding-top: 0.5rem;
+}
+
+.goods {
+    color: $gray;
+    font-size: 1.4rem;
+}
+
+.nav-list li{
+    display: inline-block;
+}
+
+.nav-list a{
+display: inline-block;
+width: 13rem;
+height: 6rem;
+line-height: 6rem;
+text-align: center;
+color: $black;
+
+&:hover {
+    background-color:$darkBlue;
+    color: $white;
+    @include opacity(1);
+};
+
+}
+
+.signIn{
+    height: 6rem;
+    line-height: 5rem;
+
+
+    & a {
+        border-bottom: 1px dashed;
+    }
+}
+
+.up {
+    font-size:1.6rem;
+}
+
+.checkout-title {
+    height: 8rem;
+    padding: 3rem 3rem 0 3rem;
+    background: $black;
+}
+
+input {
+	background-color: $darkMercury;
+	height: 5rem;
+	margin-top: 1rem;
+}
+
+.new-customer, .quick-login, .adress, .comment-order, .delivery-method {
+	padding: 3rem;
+}
+
+.form-head {
+    color: $prime;
+    font-size: 1.8rem;
+    font-weight: bold;
+    padding:3rem 0 0 3rem;
+}
+
+
+
+.apartment {
+    padding-left:1.7rem;
+}
+
+.house {
+    padding-right: 1.7rem;
+}
+
+#comment {
+    height: 22rem;
+    background: $darkMercury;
+    margin-top: 1rem;
+}
+
+.delivery-method input {
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.radio {
+    margin-top: 1rem;
+    display:inline-block;
+}
+
+.name, .price, .amount {
+    font-size: 1.8rem;
+    color: $gray;
+}
+
+.price, .amount, .total {
+    font-style: italic;
+    text-align: center;
+}
+
+.total {
+    font-size: 1.8rem;
+    color: $black;
+    font-weight: bold;
+}
+
+.product {
+    margin-top: 3rem;
+    height: 2rem;
+}
+
+.order-confirm {
+    padding-left:3rem;
+}
+
+.big {
+    font-size: 1.8rem;
+}
+
+.order-total-price {
+    font-size: 3rem;
+    font-weight: bold;
+    color: $black;
+}

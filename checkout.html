@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SuperShop</title>
+</head>
+<link rel="stylesheet" href="css/frontend/checkout.css">
+<body>
+    <section class="hero">
+        <div class="container">
+            <header>
+                <div class="logo l2 text-upper text-center white">
+                    <h4 class="h4">Super</h4>
+                    <h2 class="h2">Shop</h2>
+                </div>
+                    <nav class="l8"> 
+                        <ul class="nav-list text-upper">
+                            <li><a href="">Категория 1</a></li>
+                            <li><a href="">Категория 2</a></li>
+                            <li><a href="">Категория 3</a></li>
+                            <li><a href="">Категория 4</a></li>
+                        </ul>
+                    
+                    </nav>
+                    <div class="signIn l2 bg-white"> 
+                        <div class="user-log"><img src="frontend/img/user-icon.png" alt=""></div>
+                        <a href="#" class="mr-1 prime">Войти</a>
+                        <a href="#" class="black">Регистрация</a>
+                    </div>  
+                    <div class="cart l2 white">
+                        <div class="total-price inline-block">
+                            <h6 class="h6 inline bold">46 945</h6>
+                            <span>руб.</span><br> 
+                            <span class="goods">2 предмета</span>
+                        </div>
+                        <img src="frontend/img/Cart-Icon.png" alt="">
+                    
+                    </div>
+            </header>
+            <h1 class="h1 italic">Оформление заказа</h1>
+        </div>
+    </section>
+
+    <main class="container mt-2">
+        <section class="checkout bg-white">
+            <div class="checkout-title"><h5 class="h5 white bold"><span class="prime">1. </span>Контактная информация</h5></div>
+            <div class="contact-info">
+                <div class="row">
+                    <div class="l6">
+                    <p class="form-head">Для новых покупателей</p>
+                        <form class="new-customer">
+                            <label for="name">Контактное лицо (ФИО):</label>
+                            <input id="name" type="text" name="name" required/>
+                            <label for="tel" class="mt-1">Контактный телефон:</label>
+                            <input id="tel" type="text" name="tel" required/>
+                            <label for="mail" class="mt-1">E-mail:</label>
+                            <input id="mail" type="email" name="mail" required/>
+                            <button type="submit" class="btn btn-continue mt-2">Продолжить</button>
+                        </form>
+                    </div>
+                    <div class="l6">
+                        <p class="form-head">Быстрый вход</p>
+                        <form class="quick-login">
+                            <label for="mail-quick">Ваш e-mail:</label>
+                            <input id="mail-quick" type="email" name="mail" required/>
+                            <label for="password" class="mt-3">Пароль</label>
+                            <input id="password" type="password" name="password">
+                            <button type="submit" class="btn btn-enter mt-2">Войти</button><a class=" underline ml-2">Восстановить пароль</a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="checkout-title"><h5 class="h5 white bold"><span class="prime">2. </span>Информация о доставке</h5></div>
+            <div class="delivery-info">
+                <div class="row">
+                    <div class="l5">
+                    <p class="form-head">Адрес доставки</p>
+                        <form class="adress">
+                            <label for="name">Город:</label>
+                            <input id="name" type="text" name="name" required/>
+                            <label for="name" class="mt-1">Улица:</label>
+                            <input id="name" type="text" name="name" required/>
+                            <div class="house l6">
+                                <label for="house" class="mt-1">Дом:</label>
+                                <input id="house" type="text" name="house" required/>
+                            </div>
+                            <div class="apartment l6">
+                                <label for="apart" class="mt-1">Квартира:</label>
+                                <input id="apart" type="text" name="apart"/>
+                            </div>
+                            <button type="submit" class="btn btn-continue mt-2">Продолжить</button>
+                        </form>
+                    </div>
+                    <div class="l3">
+                        <p class="form-head">Способ доставки</p>
+                        <form class="delivery-method">
+                            <div class="radio"> 
+                                <div class="l1">
+                                    <input type="radio" name="delivery-group" value="courier" checked>
+                                </div>
+                                <div class="l11">
+                                    Курьерская доставка с оплатой при получении
+                                </div>
+                            </div> 
+                             <div class="radio">   
+                                <div class="l1">
+                                    <input type="radio" name="delivery-group" value="mail">
+                                </div>
+                                <div class="l11">
+                                    Почта России с наложенным платежом
+                                </div>
+                            </div>
+                            <div class="radio"> 
+                                <div class="l1">
+                                    <input type="radio" name="delivery-group" value="terminal">
+                                </div>
+                                <div class="l11">
+                                    Доставка через терминалы QIWI Post
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="l4">
+                        <p class="form-head">Комментарий к заказу</p>
+                        <form class="comment-order">
+                            <label for="comment">Введите ваш комментарий:</label>
+                            <textarea id="comment"></textarea>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        <div class="checkout-title"><h5 class="h5 white bold"><span class="prime">3. </span>Подтверждение заказа</h5></div>
+        <div class="order-confirm">
+            <div class="order-list">
+                <p class="big prime bold">Состав заказа:</p>
+                <div class="row mt-2 silver">
+                    <div class="l6">Товар</div>
+                    <div class="l2 text-center">Стоимость</div>
+                    <div class="l2 text-center">Количество</div>
+                    <div class="l2 text-center">Итого</div>
+                </div>
+                    <div class="product">
+                        <div class="name l6">Наименование товара</div>
+                        <div class="price l2">4 540руб.</div>
+                        <div class="amount l2">1</div>
+                        <div class="total l2">4 540руб.</div>
+                    </div>
+                    <div class="product">
+                        <div class="name l6">Наименование товара</div>
+                        <div class="price l2">4 540руб.</div>
+                        <div class="amount l2">2</div>
+                        <div class="total l2">9 080руб.</div>
+                    </div>
+                    <div class="product">
+                        <div class="name l6">Наименование товара</div>
+                        <div class="price l2">4 540руб.</div>
+                        <div class="amount l2">10</div>
+                        <div class="total l2">40 540руб.</div>
+                    </div>
+                <div class="LOffset8 mt-4">
+                    <div class="l4">
+                       <h5 class="h5 mt-1 black">Итого:</h5> 
+                    </div>
+                    <div class="l7">
+                    <div class="order-total-price">72 640руб.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="delivery">
+                <p class="big prime bold">Доставка:</p>
+                <div class="row">
+                    <div class="l3">
+                        <p class="silver mt-2">Контактное лицо (ФИО):</p>
+                        <p class="big">Имя заказчика</p>
+                        <p class="silver mt-2">Контактный телефон:</p>
+                        <p class="big">+7 916 000-00-00</p>
+                        <p class="silver mt-2">E-mail:</p>
+                        <p class="big">mail@company.ru </p>   
+                        <div class="btn btn-confirm mt-4 mb-3">Подтвердить заказ</div>
+                    </div>
+                    <div class="l3">
+                        <p class="silver mt-2">Город:</p>
+                        <p class="big">Москва</p>
+                        <p class="silver mt-2">Улица:</p>
+                        <p class="big">Название улицы</p>
+                        <div class="row">
+                            <div class="l3">
+                                <p class="silver mt-2">Дом</p>
+                                <p class="big">10</p>
+                            </div>
+                            <div class="l9">
+                                <p class="silver mt-2">Квартира</p>
+                                <p class="big">150</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="l3">
+                        <p class="silver mt-2">Способ доставки:</p>
+                        <p class="big">Курьерская доставка с оплатой при получении</p>
+                        <p class="silver mt-2">Комментарий к заказу:</p>
+                        <p class="big">Текст комментария</p>
+                    </div>
+            </div>
+        </div>
+        </section>
+        <footer class="mt-2 mb-3">
+            <span class="l5 ml-2 mt-1">
+                Шаблон для экзаменационного задания.<br>
+                Разработан специально для «Всероссийской Школы Программирования»
+                http://bedev.ru/
+            </span>
+            <span class="up right mt-2 mr-2 white pointer">Наверх <img src="frontend/img/arrow-up.png" alt=""></span>
+        </footer>
+</main>
+
+
+
+</body>
+</html>

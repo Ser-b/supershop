@@ -6,12 +6,12 @@
 }
 
 .btn-outline {
-	border: 3px solid $red;
+	border: 3px solid $prime;
 	color: $white;
 	
 
 	&:hover {
-		background-color:$red;
+		background-color:$prime;
 	}
 }
 
@@ -30,7 +30,7 @@
 }
 
 .btn-product {
-	background-color: $red;
+	background-color: $prime;
 	height: 4rem;
 	width: 13rem;
 	color: white;
@@ -50,7 +50,7 @@
 	width: 29rem;
 	height: 5rem;
 	line-height: 5rem;
-	background-color: $red;
+	background-color: $prime;
 	color: $white;
 	font-size: 2rem;
 }
@@ -59,7 +59,7 @@
 	width: 22rem;
 	height: 5rem;
 	line-height: 5rem;
-	background-color: $red;
+	background-color: $prime;
 	font-size: 1.8rem;
 	color: $white;
 	border: none;
@@ -68,8 +68,35 @@
 .btn-login {
 	height: 5rem;
 	width: 9.5rem;
-	border: 5px solid $red;
+	border: 5px solid $prime;
 	text-align: center;
 	font-size: 1.8rem;
 	line-height: 4rem;
+}
+
+.btn-continue {
+	width: 15.5rem;
+	height: 5rem;
+	background-color: $prime;
+	border: none;
+	color: $white;
+	font-size: 1.8rem
+}
+
+.btn-enter {
+	width: 10rem;
+	height: 5rem;
+	background-color: $prime;
+	font-size: 1.8rem;
+	border: none;
+	color: $white;
+}
+
+.btn-confirm {
+	width: 26rem;
+	height: 6rem;
+	line-height: 6rem;
+	color: $white;
+	background-color: $prime;
+	font-size: 2.2rem;
 }

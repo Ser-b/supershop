@@ -374,6 +374,12 @@
 	}
 }
 
+.silver {
+	&.silver {
+    	color: $silverChalice;
+	}
+}
+
 // Width and Height
 // -------------------------
 
