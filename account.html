@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SuperShop</title>
+</head>
+<link rel="stylesheet" href="css/frontend/account.css">
+<body>
+    <section class="hero">
+        <div class="container">
+            <header>
+                <div class="logo l2 text-upper text-center white">
+                    <h4 class="h4">Super</h4>
+                    <h2 class="h2">Shop</h2>
+                </div>
+                    <nav class="l8"> 
+                        <ul class="nav-list text-upper">
+                            <li><a href="">Категория 1</a></li>
+                            <li><a href="">Категория 2</a></li>
+                            <li><a href="">Категория 3</a></li>
+                            <li><a href="">Категория 4</a></li>
+                        </ul>
+                    
+                    </nav>
+                    <div class="signIn l2 bg-white"> 
+                        <div class="user-log"><img src="frontend/img/user-icon.png" alt=""></div>
+                        <a href="#" class="mr-1 prime">Войти</a>
+                        <a href="#" class="black">Регистрация</a>
+                    </div>  
+                    <div class="cart l2 white">
+                        <div class="total-price inline-block">
+                            <h6 class="h6 inline bold">46 945</h6>
+                            <span>руб.</span><br> 
+                            <span class="goods">2 предмета</span>
+                        </div>
+                        <img src="frontend/img/Cart-Icon.png" alt="">
+                    
+                    </div>
+            </header>
+            <h1 class="h1 italic">Личный кабинет</h1>
+        </div>
+    </section>
+
+    <main class="container mt-2">
+        <section class="account bg-white">
+            <div class="row">
+                <div class="l6 data">
+                        <form class="account-form">
+                            <h5 class="h5 personal-head">Ваши данные</h5>
+                            
+                            <label for="name">Контактное лицо (ФИО):</label>
+                            <input id="name" type="text" name="name" required/>
+                            <label for="tel">Контактный телефон:</label>
+                            <input id="tel" type="text" name="tel" required/>
+                            <label for="mail">E-mail:</label>
+                            <input id="mail" type="email" name="mail" required/>
+
+                            <h5 class="h5 personal-head mt-4">Адрес доставки</h5>
+
+                            <label for="town">Город:</label>
+                            <input id="town" type="text" name="town" required/>
+                            <label for="street">Улица:</label>
+                            <input id="street" type="text" name="street" required/>
+                            <div class="row">
+                                <div class="house l6">
+                                    <label for="house">Дом:</label>
+                                    <input id="house" type="text" name="house" required/>
+                                </div>
+                                <div class="apartment l6">
+                                    <label for="apart">Квартира:</label>
+                                    <input id="apart" type="text" name="apart"/>
+                                </div>
+                            </div>    
+                            <h5 class="h5personal-head  mt-4">Изменение пароля</h5>
+                            
+                            <label for="password">Введите новый пароль</label>
+                            <input id="password" type="password" name="password">
+                            <label for="password">Повторите новый пароль</label>
+                            <input id="password-repeat" type="password" name="password-repeat">
+                            <button type="submit" class="btn btn-save mt-2">Сохранить</button>
+                        </form>
+                </div>
+                <div class="l6 orders">
+                    <h5 class="h5 personal-head">Ваши заказы</h5>
+
+                    
+                        <div class="order-item">
+                            <div class="row">
+                                <div class="l4">
+                                    <h5 class="h5 order-num">№4653</h5>
+                                    <p class="order-price">(45 468руб.)</p>
+                                    <p class="order-date">01.01.2015 в 15:54</p>
+                                </div>
+                                <div class="l8">
+                                    <h3 class="h3 order-status">Ожидает доставки</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="order-item">
+                            <div class="row">
+                                <div class="l4">
+                                    <h5 class="h5 order-num">№2415</h5>
+                                    <p class="order-price">(2 100руб.)</p>
+                                    <p class="order-date">01.01.2015 в 11:00</p>
+                                </div>
+                                <div class="l8">
+                                    <h3 class="h3 order-status">Доставлен</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="order-item">
+                            <div class="row"></div>
+                                <div class="l4">
+                                    <h5 class="h5 order-num">№2158</h5>
+                                    <p class="order-price">(2 100руб.)</p>
+                                    <p class="order-date">01.01.2015 в 11:00</p>
+                                </div>
+                                <div class="l8">
+                                    <h3 class="h3 order-status">Доставлен</h3>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </section>
+        <footer class="mt-2 mb-3">
+            <span class="l5 ml-2 mt-1">
+                Шаблон для экзаменационного задания.<br>
+                Разработан специально для «Всероссийской Школы Программирования»
+                http://bedev.ru/
+            </span>
+            <span class="up right mt-2 mr-2 white pointer">Наверх <img src="frontend/img/arrow-up.png" alt=""></span>
+        </footer>
+</main>
+
+</body>
+</html>
