@@ -380,6 +380,12 @@
 	}
 }
 
+.gray {
+	&.gray {
+	color: $gray;
+	}
+}
+
 // Width and Height
 // -------------------------
 

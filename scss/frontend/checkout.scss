@@ -85,7 +85,7 @@ input {
 	margin-top: 1rem;
 }
 
-.new-customer, .quick-login, .adress, .comment-order, .delivery-method {
+.new-customer, .quick-login, .adress, .comment-order, .delivery-method, .result {
 	padding: 3rem;
 }
 
@@ -145,10 +145,6 @@ input {
 
 .order-confirm {
     padding-left:3rem;
-}
-
-.big {
-    font-size: 1.8rem;
 }
 
 .order-total-price {
