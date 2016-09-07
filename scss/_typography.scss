@@ -94,3 +94,42 @@ h6 {
 
 	}
 }
+
+//Add fonts
+
+@font-face {
+  font-family: Supermolot;
+  src: url(../../fonts/Supermolot.otf);
+}
+ 
+@font-face {
+  font-family: Supermolot;
+  src: url(../../fonts/Supermolot_Italic.otf);
+  font-style: italic;
+}
+
+@font-face {
+  font-family: Supermolot;
+  src: url(../../fonts/Supermolot_Light.otf);
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: Supermolot;
+  src: url(../../fonts/Supermolot_Bold.otf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Supermolot;
+  src: url(../../fonts/Supermolot_Bold_Italic.otf);
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: Supermolot;
+  src: url(../../fonts/Supermolot_Light_Italic.otf);
+  font-weight: 300;
+  font-style: italic;
+}
